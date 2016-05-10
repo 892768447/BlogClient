@@ -1,0 +1,28 @@
+/*item标签*/
+ItemLabel {
+    min-height: 28px;
+    max-height: 28px;
+    border: none;
+    color: rgb(136, 136, 136);
+    background-color: rgb(245, 245, 245);
+}
+
+/*item标签鼠标悬停*/
+ItemLabel:hover {
+    color: white;
+    background-color: rgb(39, 174, 97);
+}
+
+/*ItemVContent*/
+ItemVContent {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+
+/*item头像*/
+ItemHead {
+    min-height: 50px;
+    max-height: 50px;
+    border: none;
+}

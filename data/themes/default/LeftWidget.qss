@@ -1,0 +1,145 @@
+/*左侧面板,注意宽度是两部分相加260+60*/
+LeftWidget {
+    min-width: 320px;
+    max-width: 320px;
+    background-color: red;
+}
+
+/*左侧控件*/
+#BlogFormLeft {
+    min-width: 260px;
+    max-width: 260px;
+    background-color: #27ae61;
+}
+
+/*左侧头像控件*/
+#blog_head_label {
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    border-radius: 65px; /*圆角*/
+    background: url(%DATA_DIR%/themes/default/images/icon_face.png) center no-repeat;
+}
+
+/*左侧博客名字*/
+#blog_title_label {
+    min-width: 130px;
+    max-width: 130px;
+    color: white;
+    font: 20pt "Microsoft YaHei";
+    padding-top: -15px;
+}
+
+/*左侧搜索区域*/
+#blog_search_widget {
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/*左侧搜索框*/
+#blog_search_edit {
+    width: 220px;
+    height: 30px;
+    border: none;
+    color: #666;
+    background: #fff;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/*左侧搜索框按钮*/
+#blog_search_button {
+    width: 26px;
+    height: 26px;
+    border: none;
+    color: white;
+    background-color: rgb(39, 174, 97);
+    outline: none;
+    margin: 4px;
+    border-radius: 13px;
+    font: 12pt "FontAwesome";
+}
+
+/*左侧搜索框按钮鼠标悬停*/
+#blog_search_button:hover {
+    background-color: rgb(232, 76, 61);
+}
+
+/*左侧底部的菜单列表*/
+#blog_menu_list {
+    outline:0px; /*去掉虚线框*/
+    color: white;
+    background-color: transparent;
+}
+
+/*左侧底部的菜单列表选中状态样式*/
+#blog_menu_list::item:selected {
+    background-color: black;
+    border-radius: 6px;
+}
+
+/*左侧底部的菜单列表鼠标悬停样式*/
+#blog_menu_list::item:hover {
+    background-color: black;
+    border-radius: 6px;
+}
+
+/*左侧子菜单链接样式*/
+#BlogFormLeftLink {
+    min-width: 60px;
+    max-width: 60px;
+    background-color: rgb(38, 38, 38);
+}
+
+#blog_qq_button,#blog_group_button,#blog_weixin_button,#blog_login_button,#blog_up_button {
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    border-radius: 17px;
+}
+
+/*QQ按钮*/
+#blog_qq_button {
+    background: url(%DATA_DIR%/themes/default/images/icon_dark_qq.png) center no-repeat;
+}
+#blog_qq_button:hover {
+    background: url(%DATA_DIR%/themes/default/images/icon_light_qq.png) center no-repeat;
+}
+
+/*QQ群按钮*/
+#blog_group_button {
+    background: url(%DATA_DIR%/themes/default/images/icon_dark_group.png) center no-repeat;
+}
+#blog_group_button:hover {
+    background: url(%DATA_DIR%/themes/default/images/icon_light_group.png) center no-repeat;
+}
+
+/*微信按钮*/
+#blog_weixin_button {
+    background: url(%DATA_DIR%/themes/default/images/icon_dark_weixin.png) center no-repeat;
+}
+#blog_weixin_button:hover {
+    background: url(%DATA_DIR%/themes/default/images/icon_light_weixin.png) center no-repeat;
+}
+
+/*登录按钮*/
+#blog_login_button {
+    background: url(%DATA_DIR%/themes/default/images/icon_dark_login.png) center no-repeat;
+}
+#blog_login_button:hover {
+    background: url(%DATA_DIR%/themes/default/images/icon_light_login.png) center no-repeat;
+}
+
+#blog_up_button {
+    color: white;
+    background-color: #27ae61;
+    font-size: 24px;
+    font: 15pt "FontAwesome";
+}

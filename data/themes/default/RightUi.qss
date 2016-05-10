@@ -1,0 +1,22 @@
+/*右侧*/
+#BlogFormRight {
+    min-width: 222px;
+    max-width: 222px;
+}
+
+/*右侧Item*/
+#blog_right_widget {
+    outline:0px; /*去掉虚线框*/
+    background-color: transparent;
+}
+
+/*右侧Item选中状态样式*/
+#blog_right_widget::item:selected {
+    outline:0px; /*去掉虚线框*/
+    background-color: transparent;
+}
+
+/*右侧Item鼠标悬停样式*/
+#blog_right_widget::item:hover {
+    background-color: transparent;
+}

@@ -1,0 +1,77 @@
+/*竖着的滚动条样式*/
+ScrollBarUi:vertical {
+    background: transparent;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/*悬停样式*/
+ScrollBarUi:vertical:hover {
+    background: rgba(0, 0, 0, 30);
+    border-radius: 5px;
+}
+
+ScrollBarUi::handle:vertical {
+    background: rgba(0, 0, 0, 50);
+    width: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+ScrollBarUi::handle:vertical:hover {
+    background: rgba(0, 0, 0, 100);
+}
+
+/*滚动的时候下面部分*/
+ScrollBarUi::add-page:vertical {
+    width: 10px;
+    background: transparent;
+}
+
+/*滚动的时候上面部分*/
+ScrollBarUi::sub-page:vertical {
+    width: 10px;
+    background: transparent;
+}
+
+/*顶部三角形*/
+ScrollBarUi::sub-line:vertical {
+    height: 12px;
+    width: 10px;
+    background: transparent;
+    subcontrol-position: top;
+}
+
+ScrollBarUi::up-arrow:vertical {
+    image: url(%DATA_DIR%/themes/default/images/scrollbar/scrollbar_arrowup_normal.png);
+}
+
+ScrollBarUi::up-arrow:vertical:hover {
+    image: url(%DATA_DIR%/themes/default/images/scrollbar/scrollbar_arrowup_down.png);
+}
+
+ScrollBarUi::up-arrow:vertical:pressed {
+    image: url(%DATA_DIR%/themes/default/images/scrollbar/scrollbar_arrowup_highlight.png);
+}
+
+/*底部三角形*/
+ScrollBarUi::add-line:vertical {
+    height: 12px;
+    width: 10px;
+    background: transparent;
+    subcontrol-position: bottom;
+}
+
+ScrollBarUi::down-arrow:vertical {
+    image: url(%DATA_DIR%/themes/default/images/scrollbar/scrollbar_arrowdown_normal.png);
+}
+
+ScrollBarUi::down-arrow:vertical:hover {
+    image: url(%DATA_DIR%/themes/default/images/scrollbar/scrollbar_arrowdown_down.png);
+}
+
+ScrollBarUi::down-arrow:vertical:pressed {
+    image: url(%DATA_DIR%/themes/default/images/scrollbar/scrollbar_arrowdown_highlight.png);
+}

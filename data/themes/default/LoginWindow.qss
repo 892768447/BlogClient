@@ -1,0 +1,8 @@
+/*顶部进度条样式*/
+ProgressUi {
+    min-height: 3px;
+    max-height: 3px;
+}
+ProgressUi::chunk {
+    background-color: #27ae61;
+}

@@ -1,0 +1,71 @@
+/*中间item*/
+#BlogFormCenterContent {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(225, 225, 224);
+}
+
+/*置顶左侧绿色竖线*/
+#blog_article_label {
+    margin-top: 6px;
+    min-width: 5px;
+    max-width: 5px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-right: 5px;
+    background-color: rgb(39, 174, 97);
+}
+
+/*置顶*/
+#blog_stick_label {
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 25px;
+    max-height: 25px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgb(217, 83, 79);
+}
+
+/*标题按钮*/
+#blog_title_button {
+    border: none;
+    background-color: transparent;
+}
+
+#blog_title_button:hover {
+    color: rgb(39, 174, 97);
+}
+
+/*详情介绍背景*/
+#blog_content_text {
+    border-top: 1px solid rgb(225, 225, 224);
+    border-bottom: 1px solid rgb(225, 225, 224);
+    background-color: rgb(244, 244, 244);
+}
+
+/*发表时间,分类按钮,评论按钮,查看数*/
+#blog_time_label,#blog_classify_button,#blog_comment_button,#blog_views_label {
+    color: #999999;
+    border: none;
+}
+
+/*发表时间,分类按钮,评论按钮,查看数 鼠标悬停*/
+#blog_time_label:hover,#blog_classify_button:hover,#blog_comment_button:hover,#blog_views_label:hover {
+    color: rgb(39, 174, 97);
+}
+
+/*阅读全文按钮*/
+#blog_readmore_button {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 40px;
+    max-height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(88, 214, 141);
+}
+
+#blog_readmore_button:hover {
+    background-color: rgb(39, 174, 97);
+}

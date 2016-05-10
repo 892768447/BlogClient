@@ -1,0 +1,15 @@
+/*item的头部*/
+ItemHeader {
+    min-height: 50px;
+    max-height: 50px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(64, 74, 88);
+    background-image: url(%DATA_DIR%/themes/default/images/icon_arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
